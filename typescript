@@ -1,0 +1,868 @@
+Script started on Wed 17 Apr 2019 10:00:10 AM PDT
+murphya6@CF167-20:~$ cd csci241
+murphya6@CF167-20:~/csci241$ ls
+murphya6@CF167-20:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab-1-murphya6
+Cloning into 'lab-1-murphya6'...
+remote: Enumerating objects: 46, done.[K
+remote: Counting objects:   2% (1/46)   [Kremote: Counting objects:   4% (2/46)   [Kremote: Counting objects:   6% (3/46)   [Kremote: Counting objects:   8% (4/46)   [Kremote: Counting objects:  10% (5/46)   [Kremote: Counting objects:  13% (6/46)   [Kremote: Counting objects:  15% (7/46)   [Kremote: Counting objects:  17% (8/46)   [Kremote: Counting objects:  19% (9/46)   [Kremote: Counting objects:  21% (10/46)   [Kremote: Counting objects:  23% (11/46)   [Kremote: Counting objects:  26% (12/46)   [Kremote: Counting objects:  28% (13/46)   [Kremote: Counting objects:  30% (14/46)   [Kremote: Counting objects:  32% (15/46)   [Kremote: Counting objects:  34% (16/46)   [Kremote: Counting objects:  36% (17/46)   [Kremote: Counting objects:  39% (18/46)   [Kremote: Counting objects:  41% (19/46)   [Kremote: Counting objects:  43% (20/46)   [Kremote: Counting objects:  45% (21/46)   [Kremote: Counting objects:  47% (22/46)   [Kremote: Counting objects:  50% (23/46)   [Kremote: Counting objects:  52% (24/46)   [Kremote: Counting objects:  54% (25/46)   [Kremote: Counting objects:  56% (26/46)   [Kremote: Counting objects:  58% (27/46)   [Kremote: Counting objects:  60% (28/46)   [Kremote: Counting objects:  63% (29/46)   [Kremote: Counting objects:  65% (30/46)   [Kremote: Counting objects:  67% (31/46)   [Kremote: Counting objects:  69% (32/46)   [Kremote: Counting objects:  71% (33/46)   [Kremote: Counting objects:  73% (34/46)   [Kremote: Counting objects:  76% (35/46)   [Kremote: Counting objects:  78% (36/46)   [Kremote: Counting objects:  80% (37/46)   [Kremote: Counting objects:  82% (38/46)   [Kremote: Counting objects:  84% (39/46)   [Kremote: Counting objects:  86% (40/46)   [Kremote: Counting objects:  89% (41/46)   [Kremote: Counting objects:  91% (42/46)   [Kremote: Counting objects:  93% (43/46)   [Kremote: Counting objects:  95% (44/46)   [Kremote: Counting objects:  97% (45/46)   [Kremote: Counting objects: 100% (46/46)   [Kremote: Counting objects: 100% (46/46), done.[K
+remote: Compressing objects:   3% (1/26)   [Kremote: Compressing objects:   7% (2/26)   [Kremote: Compressing objects:  11% (3/26)   [Kremote: Compressing objects:  15% (4/26)   [Kremote: Compressing objects:  19% (5/26)   [Kremote: Compressing objects:  23% (6/26)   [Kremote: Compressing objects:  26% (7/26)   [Kremote: Compressing objects:  30% (8/26)   [Kremote: Compressing objects:  34% (9/26)   [Kremote: Compressing objects:  38% (10/26)   [Kremote: Compressing objects:  42% (11/26)   [Kremote: Compressing objects:  46% (12/26)   [Kremote: Compressing objects:  50% (13/26)   [Kremote: Compressing objects:  53% (14/26)   [Kremote: Compressing objects:  57% (15/26)   [Kremote: Compressing objects:  61% (16/26)   [Kremote: Compressing objects:  65% (17/26)   [Kremote: Compressing objects:  69% (18/26)   [Kremote: Compressing objects:  73% (19/26)   [Kremote: Compressing objects:  76% (20/26)   [Kremote: Compressing objects:  80% (21/26)   [Kremote: Compressing objects:  84% (22/26)   [Kremote: Compressing objects:  88% (23/26)   [Kremote: Compressing objects:  92% (24/26)   [Kremote: Compressing objects:  96% (25/26)   [Kremote: Compressing objects: 100% (26/26)   [Kremote: Compressing objects: 100% (26/26), done.[K
+remote: Total 46 (delta 13), reused 32 (delta 6), pack-reused 0[K
+Unpacking objects:   2% (1/46)   Unpacking objects:   4% (2/46)   Unpacking objects:   6% (3/46)   Unpacking objects:   8% (4/46)   Unpacking objects:  10% (5/46)   Unpacking objects:  13% (6/46)   Unpacking objects:  15% (7/46)   Unpacking objects:  17% (8/46)   Unpacking objects:  19% (9/46)   Unpacking objects:  21% (10/46)   Unpacking objects:  23% (11/46)   Unpacking objects:  26% (12/46)   Unpacking objects:  28% (13/46)   Unpacking objects:  30% (14/46)   Unpacking objects:  32% (15/46)   Unpacking objects:  34% (16/46)   Unpacking objects:  36% (17/46)   Unpacking objects:  39% (18/46)   Unpacking objects:  41% (19/46)   Unpacking objects:  43% (20/46)   Unpacking objects:  45% (21/46)   Unpacking objects:  47% (22/46)   Unpacking objects:  50% (23/46)   Unpacking objects:  52% (24/46)   Unpacking objects:  54% (25/46)   Unpacking objects:  56% (26/46)   Unpacking objects:  58% (27/46)   Unpacking objects:  60% (28/46)   Unpacking objects:  63% (29/46)   Unpacking objects:  65% (30/46)   Unpacking objects:  67% (31/46)   Unpacking objects:  69% (32/46)   Unpacking objects:  71% (33/46)   Unpacking objects:  73% (34/46)   Unpacking objects:  76% (35/46)   Unpacking objects:  78% (36/46)   Unpacking objects:  80% (37/46)   Unpacking objects:  82% (38/46)   Unpacking objects:  84% (39/46)   Unpacking objects:  86% (40/46)   Unpacking objects:  89% (41/46)   Unpacking objects:  91% (42/46)   Unpacking objects:  93% (43/46)   Unpacking objects:  95% (44/46)   Unpacking objects:  97% (45/46)   Unpacking objects: 100% (46/46)   Unpacking objects: 100% (46/46), done.
+Checking connectivity... done.
+murphya6@CF167-20:~/csci241$ ls
+lab-1-murphya6
+murphya6@CF167-20:~/csci241$ git confin[Kg --global user.name "Andrew Murphy"
+murphya6@CF167-20:~/csci241$ git config --global user.email murphya6@wwu.edu
+murphya6@CF167-20:~/csci241$ toush[K[Kch writeup.txt
+murphya6@CF167-20:~/csci241$ git rm typescript
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+murphya6@CF167-20:~/csci241$ git status
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+murphya6@CF167-20:~/csci241$ cd lab-1-murphya6
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git rm tpye[K[K[Kypescirpt[K[K[K[Kript
+rm 'typescript'
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ rm[K[Kgit rm username.txt
+rm 'username.txt'
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git rm writeup.txt
+rm 'writeup.txt'
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    typescript[m
+	[32mdeleted:    username.txt[m
+	[32mdeleted:    writeup.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Everything up-to-date
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "removed old work to redo the lab r[Kcorrectly "
+[master b8dc0f8] removed old work to redo the lab correctly
+ 3 files changed, 164 deletions(-)
+ delete mode 100644 typescript
+ delete mode 100644 username.txt
+ delete mode 100644 writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 241 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   a60146c..b8dc0f8  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ touch writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add wre[Kiteup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "added empty writeup"
+[master 93ac362] added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   b8dc0f8..93ac362  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "Added part 1 (names) to writeup"
+[master 274b8f5] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "Added part 2 (hobby) to writeup"
+[master 5e65b75] Added part 2 (hobby) to writeup
+ 1 file changed, 1 insertion(+)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 562 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   93ac362..5e65b75  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ touch username.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "created username.txt and ann[K[Kdded name and bo th usernames to it"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	[31musername.txt[m
+
+nothing added to commit but untracked files present
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31musername.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add username.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   username.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit - [Km "created username.txt and d[Kadded name and bo th usernames to it"
+[master 56eabfa] created username.txt and added name and both usernames to it
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 394 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   5e65b75..56eabfa  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ tous[Kch dummy.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add dummy.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   dummy.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "created a dummy file to play around iwth[K[K[K[Kwith"
+[master 0d30052] created a dummy file to play around with
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dummy.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 292 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   56eabfa..0d30052  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git reset dummy.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   dummy.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "added dummy text to dummy.txt to undo"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   dummy.txt[m
+
+no changes added to commit
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add dummy.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "added dummy text to dummy t[K.txt to undo"
+[master 8d7c92d] added dummy text to dummy .txt to undo
+ 1 file changed, 1 insertion(+)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 274 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   0d30052..8d7c92d  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git resset [K[K[K[Ket dumy[Kmy.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git mv dummy.txt dummy2.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git blame dummy2.txt
+fatal: no such path 'dummy2.txt' in HEAD
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git blame -f dummy2.txt
+fatal: no such path 'dummy2.txt' in HEAD
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git log
+[?1h=[33mcommit 8d7c92d1e1e7c56289cd8e11f2b5eb515c09b880[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:15:38 2019 -0700[m
+[m
+    added dummy text to dummy .txt to undo[m
+[m
+[33mcommit 0d30052f17cf30c6ec6874fc1478b62e6f0d51ce[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:14:00 2019 -0700[m
+[m
+    created a dummy file to play around with[m
+[m
+[33mcommit 56eabfa3e02481efb4e96befc9614d76ee291a87[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:12:57 2019 -0700[m
+[m
+    created username.txt and added name and both usernames to it[m
+[m
+[33mcommit 5e65b75ae7f607958c6760a12cfaf90f38648fb2[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:09:53 2019 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit 274b8f56f9aa2379d60944311858b64bab9c6aff[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:08:18 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 93ac3629758b3d60be7925299fdce67932ad97e9[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:06:24 2019 -0700[m
+[m
+    added empty writeup[m
+[m
+[33mcommit b8dc0f8965c1e5cf50966e189a4aa66f98350a4a[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Wed Apr 17 10:05:15 2019 -0700[m
+[m
+    removed old work to redo the lab correctly[m
+[m
+[33mcommit a60146c4b85896444525fd8945cf1e8857ac71c3[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Mon Apr 15 15:22:08 2019 -0700[m
+[m
+    Added the typescript to git hub[m
+[m
+[33mcommit 1cfda0b15e44bbe39d3af71e431ab6bc4c338010[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Mon Apr 15 15:19:25 2019 -0700[m
+[m
+    Hello now prints commend line arg[m
+[m
+[33mcommit 0066f34e4966f4de4a683c9d3c06a2ec32daad76[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Thu Apr 11 13:31:39 2019 -0700[m
+[m
+    created branch question3 and add favorite song to writeup[m
+[m
+[33mcommit 730c803ed2c226b0009accfcf106d1245616dac8[m[m
+Author: Andrew Murphy <murphya6@wwu.edu>[m
+Date:   Thu Apr 11 13:06:13 2019 -0700[m
+[m
+    renamed writeup back to writeup was weehaw as a test[m
+[m
+:[K[K[33mcommit 3cd9f6d11ffba0576f22d56233132eeba9119aa7[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 13:05:15 2019 -0700[m
+:[K[K[m
+:[K[K    renamed writeup to weehaw as test[m
+:[K[K[m
+:[K[K[33mcommit bb500efb5d9b36cdd62ee6f89c4b831aca6be293[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 13:03:02 2019 -0700[m
+:[K[K[m
+:[K[K    deleted dummy.txt[m
+:[K[K[m
+:[K[K[33mcommit b592a1d089383d989efbfe992b6b9387aaa0c7b5[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 13:01:58 2019 -0700[m
+:[K[K[m
+:[K[K    add a dummy text to delete[m
+:[K[K[m
+:[K[K[33mcommit 92d86a932b63a702ab7c1feb7bcb3354a760acf2[m[m
+:[K[KMerge: bf7b2e7 22b6f9a[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:56:03 2019 -0700[m
+:[K[K[m
+:[K[K    fixed merge conflict[m
+:[K[K[m
+:[K[K[33mcommit bf7b2e7fc3c56cae7689e9e7e65a04f292667933[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:51:21 2019 -0700[m
+:[K[K[m
+:[K[K    added username.txt[m
+:[K[K[m
+:[K[K[33mcommit 14915cbaa381cb78189b6107374b0f94253b433a[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:50:28 2019 -0700[m
+:[K[K[m
+:[K[K    added part 1 (names) to writeup[m
+:[K[K[m
+:[K[K[33mcommit 22b6f9a2b37eba41eeaf7cc92984c895f7e55be4[m[m
+:[K[KAuthor: murphya6 <49245886+murphya6@users.noreply.github.com>[m
+:[K[KDate:   Thu Apr 11 12:47:38 2019 -0700[m
+:[K[K[m
+:[K[K    Update writeup.txt[m
+:[K[K[m
+:[K[K[33mcommit fc7345f524d81aade454d415eec18d9051fa15d5[m[m
+:[K[KAuthor: murphya6 <49245886+murphya6@users.noreply.github.com>[m
+:[K[KDate:   Thu Apr 11 12:41:39 2019 -0700[m
+:[K[K[m
+:[K[K    Update writeup.txt[m
+:[K[K[m
+:[K[K[33mcommit 6e0ae821a2ae19a4ddda52c1d5f7291885bf7730[m[m
+:[K[KAuthor: murphya6 <49245886+murphya6@users.noreply.github.com>[m
+:[K[KDate:   Thu Apr 11 12:24:56 2019 -0700[m
+:[K[K[m
+:[K[K    Update writeup.txt[m
+:[K[K[m
+:[K[K[33mcommit 9dcdc9ad70adb7caebc394252354ccc0dc34eef5[m[m
+:[K[KAuthor: Andrew Murphy <murphya6@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:19:06 2019 -0700[m
+:[K[K[m
+:[K[K    Added empty writeup[m
+:[K[K[m
+:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K[m
+:[K[K    Adding setup for gradle[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>murphya6@CF167-20:~/csci241/lab-1-murphya6$ git diff
+[?1h=[K[?1l>murphya6@CF167-20:~/csci241/lab-1-murphya6$ git rm dummy2.txt
+error: the following file has changes staged in the index:
+    dummy2.txt
+(use --cached to keep the file, or -f to force removal)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mrenamed:    dummy.txt -> dummy2.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6\ 
+Password for 'https://murphya6@github.com': 
+Everything up-to-date
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git reset dummy2.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git rm dummy2.txt
+fatal: pathspec 'dummy2.txt' did not match any files
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mdeleted:    dummy.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mdummy2.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git add dummy2.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Everything up-to-date
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mrenamed:    dummy.txt -> dummy2.txt[m
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "push a name change of dummy f[Ktext"
+[master faf5676] push a name change of dummy text
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dummy.txt => dummy2.txt (100%)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git sat[K[Ktatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 240 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   8d7c92d..faf5676  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git rm dummy2.txt
+rm 'dummy2.txt'
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit- [K[K -m "deleted the dummy text"
+[master 4110595] deleted the dummy text
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 dummy2.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 229 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   faf5676..4110595  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git checkout -b question3
+Switched to a new branch 'question3'
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ push[K[K[K[Kgit add writeup.txt
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "added question 3 [K[K[K[K[K[K[K[K[K[K[Kpart 3 (song) to writeup.txt in bran ch question [K3"
+[question3 5429b96] added part 3 (song) to writeup.txt in branch question3
+ 1 file changed, 1 insertion(+)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git merge question3
+Updating 4110595..5429b96
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git branch -d question3
+Deleted branch question3 (was 5429b96).
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 368 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   4110595..5429b96  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ gradle build
+[0mStarting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mmurphya6@CF167-20:~/csci241/lab-1-murphya6$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello !
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mmurphya6@CF167-20:~/csci241/lab-1-murphya6$ gradle run
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mmurphya6@CF167-20:~/csci241/lab-1-murphya6$ g[Kmurphya6@CF167-20:~/csci241/lab-1-murphya6$ g[Kgra[K[K[Kgradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mmurphya6@CF167-20:~/csci241/lab-1-murphya6$ git add src/main/java/lab1/Hello.java
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git commit -m "Hell [Ko now prints command line arg"
+[master 5596829] Hello now prints command line arg
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': murphya6
+Password for 'https://murphya6@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 507 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-murphya6
+   5429b96..5596829  master -> master
+murphya6@CF167-20:~/csci241/lab-1-murphya6$ exit
+exit
+
+Script done on Wed 17 Apr 2019 10:35:07 AM PDT
